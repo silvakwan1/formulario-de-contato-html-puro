@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+
+    <fieldset style="margin: 10px 25% 0 25%;">
+
+        <legend> Contato </legend>
+
+        <form spellcheck="" autocomplete="on" translate="yes" action="#">
+            <label for="matter" > <b>Assunto:</b>  </label>
+            <select name="matter" id="matter">
+                <option value="complaint">Reclamação</option>
+                <option value="help" selected>Suporte</option>
+                <option value="speaks">falar com adm</option>
+            </select>
+
+            <h2>Nome Completo:<br>
+            <input placeholder="seu nome" name="name" type="text" i></h1>
+
+            <h2>E-mail:<br> 
+            <input placeholder="contato@gmail.com" name="email" type="email"></h2>
+
+            <h2>Telefone para Contato:<br>
+            <input placeholder="(00) 00000-0000" name="fon" type="number"></h2>
+
+            <label style="font-size: 25px;" > <b>Mensagem</b></label>   <br> 
+            <textarea  name="Mensagem" id="Mensagem" cols="30" rows="10" placeholder="escreva aki..."></textarea><br>
+
+            <input name="acept-zaap" type="checkbox">
+            <label>aceito receber Mensagem pelo whatsapp</label><br>
+
+            <input name="acept-email" type="checkbox">
+            <label>aceito receber Mensagem pelo E-mail</label><br>
+
+            <button style="position: absolute;" type="submit">Enviar</button>
+        </form>
+
+    </fieldset>
+
+</body>
+</html>
